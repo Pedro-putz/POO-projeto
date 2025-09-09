@@ -8,7 +8,11 @@
  * @author User
  */
 public class Tarefa {
-    
+    private int id ;
+    private String titulo;
+    private String descricao;
+    private boolean completa;
+    private int dataAgora;
     
     
 }
