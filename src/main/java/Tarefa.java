@@ -8,11 +8,36 @@
  * @author User
  */
 public class Tarefa {
-    private int id ;
+
+    private int id;
     private String titulo;
     private String descricao;
     private boolean completa;
     private int dataAgora;
-    
-    
+
+    // getting para id
+    public int getId() {
+        return this.id;
+    }
+
+    // getting para titulo
+    public String getTitulo() {
+        return this.titulo;
+    }
+
+    // getting para descricao
+    public String getDescricao() {
+        return this.descricao;
+    }
+
+    // getting para completa
+    public boolean isCompleta() {
+        return this.completa;
+    }
+
+    // getting para dataAgora
+    public int getDataAgora() {
+        return this.dataAgora;
+    }
+
 }
