@@ -1,3 +1,5 @@
+package pacote1;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -39,7 +41,7 @@ public class Tarefa {
         return this.descricao;
     }
     
-    //setting para titulo
+    //setting para descricao
     public void setDescricao(String descricao){
         this.descricao= descricao;
     }
@@ -49,7 +51,7 @@ public class Tarefa {
         return this.completa;
     }
     
-    //setting para titulo
+    //setting para completa
     public void setCompleta(boolean completa){
         this.completa= completa;
     }
@@ -59,7 +61,7 @@ public class Tarefa {
         return this.dataAgora;
     }
 
-     //setting para titulo
+     //setting para dataAgora
     public void setDataAgora(int dataAgora){
         this.dataAgora= dataAgora;
     }
